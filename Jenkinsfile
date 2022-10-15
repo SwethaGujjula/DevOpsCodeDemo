@@ -6,7 +6,7 @@ pipeline{
     }
 	agent any
       stages{
-           stage('Checkout'){
+           stage('Clone'){
 	    
                steps{
 		 echo 'cloning..'
